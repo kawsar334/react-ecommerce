@@ -13,9 +13,10 @@
     left: 0;
     width: 100%;
     z-index: 999;
+    transition: all 1s ease;
     @include mobile {
             height: max-content;
-        }
+        };
 
     .navWrapper{
         display: flex;
