@@ -34,7 +34,9 @@ const Slider = () => {
         <div className="infoContainer">
             <h1 className="title">{item.title}</h1>
             <div className="desc">{item.desc}</div>
-            <button>Shop now</button>
+            <button> <NavLink to='/details/:id'>
+              Shop now
+              </NavLink></button>
         </div>
       </div>
       ))}

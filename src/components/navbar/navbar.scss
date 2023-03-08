@@ -16,6 +16,7 @@
     transition: all 1s ease;
     @include mobile {
             height: max-content;
+           box-shadow: 0 0 5px rgba(0,0,0,0.4)
         };
 
     .navWrapper{
@@ -126,9 +127,7 @@
                     }
                 }
                 @include mobile {
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
+                  
                 }
             }
         }
